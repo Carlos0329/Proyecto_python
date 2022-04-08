@@ -1,0 +1,267 @@
+* {
+    padding: 3px;
+    margin: 0;
+}
+
+
+/* Body, cuerpo */
+
+.contMain {
+    min-height: 100vh;
+}
+
+body {
+    background: url(../img/fondo_op_4.jpg) no-repeat center center fixed;
+    background-size: cover;
+    min-height: 100vh;
+}
+
+nav {
+    background: transparent;
+    text-align: center;
+    padding: 5px;
+    
+}
+
+nav h2 {
+    float: left;
+    display: inline;
+}
+
+nav h2 a {
+    text-decoration: none;
+    color: #fff;
+}
+
+nav h2 a:hover {
+    color: #6DEFE8;
+}
+
+nav ul {
+    margin-left: 400px;
+}
+
+.btn {
+    color: white;
+}
+
+nav ul li {
+    float: right;
+    padding: 1px;
+    margin-right: 5px;
+    list-style: none;
+}
+
+main section form .btn {
+    background: #7267CB;
+    color: #fff;
+}
+
+main section form .btn:hover {
+    background: #4a3ac5;
+    color: #fff;
+    border: #000 solid 2px;
+}
+
+
+/* main, Englobador de contenido */
+
+main {
+    margin: 0 auto;
+    text-align: center;
+}
+
+
+/* section, seccion, contenido especifico */
+
+section {
+    background: transparent;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+
+/* footer, parte final */
+
+footer {
+    opacity: .6;
+    background: #8A39E1;
+    text-align: center;
+    padding: 10px;
+    color: azure;
+}
+
+footer p {
+    color: azure;
+}
+
+main section .formulario {
+    border: #000 2px solid;
+    padding: 10px;
+    margin-bottom: 308px;
+}
+
+main section .carousel-inner {
+    padding: 10px 200px;
+}
+
+main section .card {
+    background: transparent;
+    position: relative;
+}
+
+main section.card .body-card .carousel-item img {
+    border-radius: 20px;
+}
+
+h1 {
+    text-align: center;
+    color: white;
+    font-size: 40px;
+}
+
+.button {
+    border: none;
+    width: 100%;
+    color: white;
+    font-size: 20px;
+    background: #1a2537;
+    padding: 5px 5px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.button:hover {
+    background: #7267CB;
+}
+
+
+/* .foot{
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+} */
+
+.card .card-body .table {
+    background-color: white;
+    border: black 3px solid;
+}
+
+
+  
+  
+  .container{
+    margin-top: 150px;
+  }
+  
+  .text-center {
+    text-align: center;
+  }
+  
+  .rainbow{
+    background-color: #8A39E1;
+    border-radius: 4px;  
+    color: white;
+    cursor: pointer;
+    padding: 8px 16px;
+    
+  }
+  
+  .rainbow-1:hover{
+     background-image: linear-gradient(90deg, #00C0FF 0%, #FFCF00 49%, #FC4F4F 80%, #00C0FF 100%);
+     animation:slidebg 5s linear infinite;
+  }
+  
+  
+  
+  @keyframes slidebg {
+    to {
+      background-position:20vw;
+    }
+  }
+  
+  .follow{
+    margin-top: 40px;
+  }
+  
+  .follow a{
+    color: black;
+    padding: 8px 16px;
+    text-decoration: none;
+  }
+
+  /* Segundo boton */
+
+nav ul li a {
+    --c: #6DEFE8;
+    color: var(--c);
+    font-size: 16px;
+    border: 0.3em solid var(--c);
+    border-radius: 0.5em;
+    width: 12em;
+    height: 3em;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-family: sans-serif;
+    letter-spacing: 0.1em;
+    text-align: center;
+    line-height: 3em;
+    position: relative;
+    overflow: hidden;
+    z-index: 1;
+    transition: 0.5s;
+    margin: 1em;
+}
+
+nav ul li a span {
+    position: absolute;
+    width: 25%;
+    height: 100%;
+    background-color: var(--c);
+    transform: translateY(150%);
+    border-radius: 50%;
+    left: calc((var(--n) - 1) * 25%);
+    transition: 0.5s;
+    transition-delay: calc((var(--n) - 1) * 0.1s);
+    z-index: -1;
+}
+
+nav ul li:hover {
+    color: #fff;
+}
+
+nav ul li a:hover span {
+    transform: translateY(0) scale(2);
+}
+
+nav ul li a span:nth-child(1) {
+    --n: 1;
+}
+
+nav ul li a span:nth-child(2) {
+    --n: 2;
+}
+
+nav ul li a span:nth-child(3) {
+    --n: 3;
+}
+
+nav ul li a span:nth-child(4) {
+    --n: 4;
+}
+
+nav ul li a span:nth-child(5) {
+    --n: 5;
+}
+
+nav ul li a span:nth-child(6) {
+    --n: 6;
+}
+
+.iconos{
+    background: transparent;
+    border: 0px;
+    
+}

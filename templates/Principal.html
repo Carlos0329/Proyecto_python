@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Boostrap -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <!-- CSS -->
+    <link rel="stylesheet" href="/static/css/style.css">
+    <!-- Icono -->
+    <link rel="icon" href="/static/img/codeina.png">
+    <!-- Titulo -->
+    <title>CODEINA CORP</title>
+</head>
+
+<body>
+    <div class="container-fluid contMain">
+        <div class="row">
+            <nav class="navbar navbar-expand-lg navbar-light">
+
+                <div class="col-xs-0 col-sm-3 col-md-3 col-lg-3">
+                    <h2><a href="/interfazprincipal">Codeina Corp <img src="/static/img/codeina.png"  width="30"></a></h2>
+                </div>
+                <div class="collapse navbar-collapse" id="navbarNav">
+                    <div class="col-xs-12 col-sm-11 col-md-10 col-lg-10">
+                        <ul class="navbar-nav">
+                            <li><a class="btn" href="/interfazusuarios">Usuarios<span></span><span></span><span></span><span></span></a></li>
+                            <li><a class="btn" href="/interfazproductos">Productos<span></span><span></span><span></span><span></span></a></li>
+                            <li><a class="btn" href="/interfazcategorias">Categorias<span></span><span></span><span></span><span></span></a></li>
+                            <li><a class="btn" href="/interfazproveedor">Proveedores<span></span><span></span><span></span><span></span></a></li>
+                            <li><a class="btn" href="/cerrar">Salir<span></span><span></span><span></span><span></span></a></li>
+                        </ul>
+                    </div>
+                </div>
+
+            </nav>
+        </div>
+        <div class="row">
+            <main>
+                <section>
+
+                    <div class="card">
+                        <div class="card-body">
+                            <div class="row">
+                                <div class="col-xs-0 col-sm-1 col-md-2 col-lg-2"></div>
+                                <div class="col-xs-12 col-sm-10 col-md-8 col-lg-8">
+                                    <div class="alert alert-success alert-dismissible fade show" role="alert">
+                                        <strong>!Bienvenido¡</strong> a Codiena Corp {{nombre}}.
+                                        <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
+                                    </div>
+                                    <p>
+                                        <h1>{{nombre}}</h1>
+                                        <h1>{{usua}}</h1>
+                                    </p>
+                                </div>
+                                <div class="col-xs-0 col-sm-1 col-md-2 col-lg-2"></div>
+                                <div class="row"></div>
+                            </div>
+                        </div>
+                    </div>
+
+
+                </section>
+            </main>
+        </div>
+        <div class="row foot">
+            <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+                <footer>
+                    <p>Todos los derechos reservados a Codeina Corp &copy; ||
+                        <a href="/interfazprincipal"><img src="/static/img/codeina.png" width="20"></a>
+                    </p>
+                </footer>
+            </div>
+        </div>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js" integrity="sha384-7+zCNj/IqJ95wo16oMtfsKbZ9ccEh31eOz1HGyDuCQ6wgnyJNSYdrPa03rtR1zdB" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.min.js" integrity="sha384-QJHtvGhmr9XOIpI6YVutG+2QOK9T+ZnN4kzFN1RtK3zEFEIsxhlmWl5/YESvpZ13" crossorigin="anonymous"></script>
+
+</body>
+
+</html>
